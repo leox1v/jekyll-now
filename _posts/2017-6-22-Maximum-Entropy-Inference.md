@@ -38,12 +38,12 @@ Additionally we need constraints that depend on the data itself. Otherwise the w
 $$\int_\Omega p(x)r_j(x) dx = \mu_j \quad \text{for} \quad 1 \leq j \leq m$$
 
 where $$ r_j(x) $$ is a function of x that represents the argument for the expectation moment, e.g.
-* For the mean we have  
+* For the mean we have  
 
-$$\mathbb{E}x =\int_\Omega p(x)x dx = \mu_1  \implies r_1(x) = x$$
+$$ \mathbb{E}x =\int_\Omega p(x)x dx = \mu_1  \implies r_1(x) = x $$
 * For the variance we have  
 
-$$\mathbb{E}x^2 =\int_\Omega p(x)x^2 dx =  \mu_2  \implies r_2(x) = x^2$$
+$$ \mathbb{E}x^2 =\int_\Omega p(x)x^2 dx =  \mu_2  \implies r_2(x) = x^2 $$
 
 ### Constrained Optimization Problem
 
