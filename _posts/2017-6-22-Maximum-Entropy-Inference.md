@@ -14,7 +14,7 @@ Why the uniform distribution? Because the uniform distribution makes the least a
 
 To find the optimal distribution described by the above definition, we first need to come up with an objective which captures this notion and can later be optimized. To do so we introduce the concept of Surprise. Surprise S is defined as
 
-$ S(p) = log_2 (\frac{1}{p}) S(\frac{1}{2}) $
+$$ S(p) = log_2 (\frac{1}{p}) S(\frac{1}{2}) $$
 
 where $latex S(1/2)$ is defined as the unit of surprise, bit. Intuitively, this definition of surprise makes sense. It has the same properties that we associate with the word in everyday life:
 
