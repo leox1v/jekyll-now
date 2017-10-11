@@ -150,6 +150,21 @@ img {
 // .masthead
 //
 
+#aboutme h3 {
+  margin-top: 0px !important;
+  margin-bottom: 1em !important;
+}
+
+#aboutme h4 {
+  margin-top: 0px !important;
+  margin-bottom: 0.25em !important;
+  font-size: 17px;
+}
+
+#aboutme a {
+  color: #337ab7;
+}
+
 .wrapper-masthead {
   margin-bottom: 50px;
 }
