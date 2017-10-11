@@ -30,14 +30,19 @@ Now that we have our objective we need to introduce all the constraints so that 
 ### Constraints
 
 Since we want to obtain a proper density we need to fulfill the two obvious constraints, namely
-* $$ \int_\Omega p(x)dx = 1 $$
+* \$$ \int_\Omega p(x)dx = 1 $$
 * $$ p(x) \geq 1 $$ for all $$ x \in \Omega $$ 
 
-Additionally we need constraints that depend on the data itself. Otherwise the whole procedure wouldn't make sense and we would always come up with a uniform distribution over our solution space $$ \Omega  $$. We call these data dependent contstraint Expectation Constraints. We can have m of such constraints  
-$$\int_\Omega p(x)r_j(x) dx = \mu_j$$ for $$1 \leq j \leq m $$ where $$ r_j(x) $$ is a function of x that represents the argument for the expectation moment, e.g.
-* For the mean we have   
+Additionally we need constraints that depend on the data itself. Otherwise the whole procedure wouldn't make sense and we would always come up with a uniform distribution over our solution space $$ \Omega  $$. We call these data dependent contstraint Expectation Constraints. We can have m of such constraints 
+
+$$\int_\Omega p(x)r_j(x) dx = \mu_j \quad \text{for} \quad 1 \leq j \leq m$$
+
+where $$ r_j(x) $$ is a function of x that represents the argument for the expectation moment, e.g.
+* For the mean we have  
+
 $$\mathbb{E}x =\int_\Omega p(x)x dx = \mu_1  \implies r_1(x) = x$$
-* For the variance we have   
+* For the variance we have  
+
 $$\mathbb{E}x^2 =\int_\Omega p(x)x^2 dx =  \mu_2  \implies r_2(x) = x^2$$
 
 ### Constrained Optimization Problem
@@ -56,8 +61,9 @@ Since we constrained $$ p(x) $$ to be a probability density function we find ou
 
 At the Wikipedia page of  [Maximum Entropy Probability Distribution](https://en.wikipedia.org/wiki/Maximum_entropy_probability_distribution) you find a table with different Maximum Entropy Constraints and their resulting probability density functions. The most common case you will probably encounter is when you  want to fit the density only to the mean and variance of the data, which implies the two Maximum Entropy Constraints:
 
-* $$\mathbb{E}x =  \mu  \implies r_1(x) = x \quad \text{and} \quad \mu_1 = \mu$$
-* $$\mathbb{V}x =  \sigma^2  \implies r_2(x) = x^2 \quad \text{and} \quad \mu_2 = \sigma^2$$  
+* \$$\mathbb{E}x =  \mu  \implies r_1(x) = x \quad \text{and} \quad \mu_1 = \mu$$
+* \$$\mathbb{V}x =  \sigma^2  \implies r_2(x) = x^2 \quad \text{and} \quad \mu_2 = \sigma^2$$  
 
-The resulting distribution with these two additional constraints is the Normal Distribution.  
+The resulting distribution with these two additional constraints is the Normal Distribution. 
+
 $$ p(x) = \frac{1}{\sqrt{2\pi} \sigma} e^{-\frac{(x-\mu)^2}{2\sigma^2}} $$
