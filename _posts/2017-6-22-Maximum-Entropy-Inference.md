@@ -2,6 +2,9 @@
 layout: post
 title: Maximum Entropy Inference
 ---
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 Maximum Entropy Inference is used to find the underlying distribution of the data. In particular, it finds the density that fulfills given constraints but is maximally undefined otherwise. In other words:
 
 We look for the distribution which fits the measurements but otherwise is most similar to the uniform distribution.
@@ -11,7 +14,7 @@ Why the uniform distribution? Because the uniform distribution makes the least a
 
 To find the optimal distribution described by the above definition, we first need to come up with an objective which captures this notion and can later be optimized. To do so we introduce the concept of Surprise. Surprise S is defined as
 
-$latex S(p) = log_2 (\frac{1}{p}) S(\frac{1}{2})&s=2$
+$ S(p) = log_2 (\frac{1}{p}) S(\frac{1}{2}) $
 
 where $latex S(1/2)$ is defined as the unit of surprise, bit. Intuitively, this definition of surprise makes sense. It has the same properties that we associate with the word in everyday life:
 
