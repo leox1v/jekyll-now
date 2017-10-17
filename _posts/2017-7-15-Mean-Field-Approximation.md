@@ -2,6 +2,7 @@
 layout: post
 title: Mean Field Approximation
 header-img: "images/math.png"
+comments: true
 ---
 
 When facing a clustering problem we often have statistical dependencies between the assignments of different objects. This means to evaluate the cost function we need to check the whole space of possible assignments of cardinality $$ k^N $$.

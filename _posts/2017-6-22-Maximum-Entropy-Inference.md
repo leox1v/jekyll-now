@@ -2,6 +2,7 @@
 layout: post
 title: Maximum Entropy Inference
 header-img: "images/math.png"
+comments: true
 ---
 
 Maximum Entropy Inference is used to find the underlying distribution of the data. In particular, it finds the density that fulfills given constraints but is maximally undefined otherwise. In other words:
