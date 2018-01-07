@@ -1,3 +1,7 @@
+- author: Chris Bailey
+  title: "The Productivity Project"
+  finished: 2018-01-06
+  rating: 4
 - author: Cal Newport
   title: "Deep Work: Rules for Success in a distracted World"
   finished: 2017-05-01
@@ -21,6 +25,42 @@
   title: "Ego is the Enemy"
   finished: 2017-01-10
   rating: 5
+- author: Brian Tracy
+  title: "No Excuses! The Power of Self-Discipline"
+  finished: 2017-05-01
+  rating: 3
+- author: Mark Manson
+  title: "The Subtle Art of Not Giving a F*ck"
+  finished: 2016-12-10
+  rating: 4
+- author: Stephen R. Covey
+  title: "The 7 Habits of Highly Effective People"
+  finished: 2016-09-12
+  rating: 3
+- author: Richard Branson
+  title: "Like a Virgin: Secrets They Won't Teach You at Business School"
+  finished: 2016-07-24
+  rating: 5
+- author: Charles Duhigg
+  title: "The Power of Habit"
+  finished: 2016-06-03
+  rating: 5
+- author: Robert T. Kiyosaki
+  title: "Rich Dad Poor Dad"
+  finished: 2016-02-14
+  rating: 5
+- author: Ashlee Vance
+  title: "Elon Musk"
+  finished: 2016-03-14
+  rating: 3
+- author: Walter Isaacson
+  title: "Steve Jobs"
+  finished: 2015-09-01
+  rating: 4
+- author: Richard David Precht
+  title: "Wer bin ich - und wenn ja, wie viele?"
+  finished: 2017-11-20
+  rating: 4
 # - author: Thomas Mann
 #   title: Death in Venice
 #   finished: 2017-08-07
