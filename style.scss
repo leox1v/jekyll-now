@@ -52,16 +52,16 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 26px;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 24px;
+  color: $darkGray;
 }
 
 h4 {
-  font-size: 18px;
-  color: $gray;
+  font-size: 22px;
 }
 
 p {
@@ -152,17 +152,18 @@ img {
 
 #aboutme h3 {
   margin-top: 0px !important;
-  margin-bottom: 1em !important;
+  margin-bottom: 0em !important;
 }
 
 #aboutme h4 {
   margin-top: 0px !important;
   margin-bottom: 0.25em !important;
-  font-size: 17px;
+  font-size: 22px;
+  color: $gray;
 }
 
 #aboutme a {
-  color: #337ab7;
+  color: #2200CC;
 }
 
 #aboutme .contactleft{
